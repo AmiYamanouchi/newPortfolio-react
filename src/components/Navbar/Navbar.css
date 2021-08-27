@@ -1,0 +1,72 @@
+.gnav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gnav-item {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    padding: 0 24px;
+    letter-spacing: .05em;
+  }
+  
+  .gnav-link {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #333;
+  }
+  
+  .gnav-link:hover {
+    opacity: 1;
+  }
+  
+  .gnav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    content: "";
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #333;
+  }
+  
+  .gnav-link:hover:after {
+    width: 100%;
+  }
+  
+  /* iOS対策 */
+  .ios .gnav-link:after,
+  .ios .gnav-link:hover:after {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .gnav {
+      padding: 15px 0;
+      
+    }
+  
+    .gnav-item {
+      font-size: 13px;
+      padding: 2px 15px;
+    }
+  
+    .gnav-link {
+      padding: 0;
+    }
+  
+    .gnav-link:hover {
+      opacity: 1;
+    }
+  
+    .gnav-link:after {
+      display: none;
+    }
+  }

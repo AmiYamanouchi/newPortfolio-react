@@ -1,0 +1,19 @@
+.skill-section .inner {
+    max-width: 1000px;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -50px;
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .skill-list {
+        display: block;
+        margin-bottom: 0;
+      }
+
+  }

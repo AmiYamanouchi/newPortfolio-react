@@ -1,0 +1,11 @@
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .works-list {
+      justify-content: space-between;
+    }
+  }

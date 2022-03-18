@@ -1,15 +1,15 @@
-import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link'
 import "./Navbar.css";
 
 
 
 function Navbar() {
-    const [click,setClick] = useState(false)
+    // const [click,setClick] = useState(false)
     return (
     
-        <nav className="gnav" className="fixed">
+        <nav className="gnav" >
             <ul className="gnav-list">
         {/* <!-- <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li> --> */}
         {/* <!-- <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li> --> */}

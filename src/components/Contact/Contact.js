@@ -14,11 +14,11 @@ function Contact() {
             <div className="section-body contact">
                 <ul className="contact-list">
                     <li className="contact-item">
-                        <a className="contact-link" href="https://twitter.com/" target="_blank"><img className="contact-image"
+                        <a className="contact-link" href="https://twitter.com/" target="_blank" rel="noreferrer"><img className="contact-image"
                             src="img/contact/icon_tw.png" alt="" /></a>
                     </li>
                     <li className="contact-item">
-                        <a className="contact-link" href="https://www.facebook.com/" target="_blank"><img className="contact-image"
+                        <a className="contact-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img className="contact-image"
                             src="img/contact/icon_fb.png" alt=""/></a>
                     </li>
                 </ul>
